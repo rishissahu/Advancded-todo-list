@@ -1,0 +1,15 @@
+{
+  "name": "drag-and-drop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dragAndDrop.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}

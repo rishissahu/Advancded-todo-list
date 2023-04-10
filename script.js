@@ -1,3 +1,2 @@
-document.querySelectora('.lanes')
-document.querySelectorAll('.lane')
-
+import setup from "./dragAndDrop.js";
+setup()
