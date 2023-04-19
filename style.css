@@ -61,10 +61,12 @@ h1 {
     margin: .3rem;
     padding: .5rem;
     text-align: center;
+    user-select: none;
 }
 
 .task:hover {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    cursor: grab;
 }
 
 .take-input {
