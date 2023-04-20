@@ -77,10 +77,17 @@ h1 {
     color: rgb(194, 194, 194);
 }
 
-[data-draggable] {
-    user-select: none;
-}
-
 [data-draggable].hide {
     display: none;
+}
+
+[data-draggable].dragging {
+    position: absolute;
+    opacity: .5;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+[data-draggable] {
+    user-select: none;
 }
