@@ -83,12 +83,16 @@ h1 {
 }
 
 [data-draggable].dragging {
+    width: 9rem;
     position: absolute;
     opacity: .5;
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
-
+[data-draggable].ghost {
+    background-color: rgb(0, 0, 0);
+    opacity: .25;
+}
 [data-draggable] {
     user-select: none;
 }
